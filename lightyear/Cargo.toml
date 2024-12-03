@@ -48,7 +48,7 @@ zstd = ["dep:zstd"]
 
 [dependencies]
 # utils
-chrono = "0.4.38"
+chrono = "0.4"
 cfg-if = "1.0"
 enum_dispatch = "0.3"
 governor = "0.7.0"
