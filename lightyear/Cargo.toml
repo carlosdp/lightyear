@@ -82,7 +82,7 @@ chacha20poly1305 = { version = "0.10", features = ["std"] }
 lightyear_macros = { version = "0.18.0", path = "../macros" }
 
 # tracing
-tracing = "0.1.40"
+tracing = "0.1"
 tracing-log = "0.2.0"
 tracing-subscriber = { version = "0.3.17", features = [
   "registry",
