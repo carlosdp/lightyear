@@ -162,7 +162,7 @@ web-sys = { version = "0.3", optional = true, features = [
   "MessageEvent",
   "BinaryType",
 ] }
-bevy_web_keepalive = "0.3"
+bevy_web_keepalive = { git = "https://github.com/carlosdp/bevy_web_keepalive", branch = "bevy-0.15" }
 futures-lite = { version = "2.1.0", optional = true }
 getrandom = { version = "0.2.11", features = [
   "js", # feature 'js' is required for wasm
